@@ -10,7 +10,7 @@ url: "" # the base hostname & protocol for your site
 locale: en_US
 
 ### Personal info and site tools info:
-twitter_username: 
+twitter_username:
 github_username: aimtechs
 disqus_shortname: aimtechs
 favicon: "/images/favicon.ico"
@@ -22,7 +22,7 @@ google_analytics_key: # put YOUR key here to enable tracking! (blank to disable)
 ### Site setting:
 ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
 default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
-default_locale: "kr" # blog sidebar language set, only include: English (en), Chinese (cn), Japanese (jp), Polish (pl), Korean (kr) and Russian (ru) 
+default_locale: "kr" # blog sidebar language set, only include: English (en), Chinese (cn), Japanese (jp), Polish (pl), Korean (kr) and Russian (ru)
 
 locales:
     en:
@@ -46,14 +46,14 @@ locales:
     cn:
       Aboutme: "关于我"
       Archives: "存档"
-      Blogroll: "良师益友"        
-      Categories: "分类目录"    
+      Blogroll: "良师益友"
+      Categories: "分类目录"
       Copyright_Notice: "版权声明"
       Recent_Posts: "近期文章"
-      Tags: "标签" 
+      Tags: "标签"
       Previous: "前一页"
       Next: "后一页"
-      PostedInCategories: "目录:"   
+      PostedInCategories: "目录:"
       Taggedwith: "| 标签:"
       PostDate: "| 发表时间: "
       Google_search: "站内搜索"
@@ -137,12 +137,12 @@ locales:
 ### your Blogroll info, only name can shown on the page.
 
 Blogroll:
-      - name: Freshman
-        href: http://yulijia.net/freshman
-        title: Another Jekyll blog theme
-      - name: author's website
-        href: http://yulijia.net/
-        title: Lijia Yu's website
+      - name: Aim Systems
+        href: http://www.aim.co.kr
+        title: Aim System
+      # - name: author's website
+      #   href: http://yulijia.net/
+      #   title: Lijia Yu's website
 
 
 ### Build settings
