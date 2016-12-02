@@ -15,7 +15,7 @@ github_username: aimtechs
 disqus_shortname: aimtechs
 favicon: "/images/favicon.ico"
 aboutme: enjoy it. # these are shown on aboutme-sidebar.
-aboutme_photo: # your photo.
+aboutme_photo: http://aim.co.kr/files/attach/images/172/f72ffead28ce91ad72971209983fbca3.png # your photo.
 google_analytics_key: # put YOUR key here to enable tracking! (blank to disable)
 
 
