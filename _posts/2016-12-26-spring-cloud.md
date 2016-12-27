@@ -165,6 +165,10 @@ server side loadbalancing의 경우, 아래와 같은 문제점이 있다.
 
 위와 같은 문제점을 해결하고, 기존 loadbalancing의 역할을 쉽게 구현할 수 있는 것들 중 하나가 Ribbon 이다.
 
+[여기까지 샘플 코드](https://github.com/aimtechs/microservices-demo)
+
+[샘플 configuration](https://github.com/aimtechs/microservices-demo-config)
+
 # Zuul
 
 # Zipkin
