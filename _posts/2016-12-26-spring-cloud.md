@@ -8,6 +8,9 @@ tags:
 - spring-cloud
 ---
 
+# spring boot 기반 app 배포
+Make jar, Not WAR!
+
 # config server
 설정은 프로세스 동작을 위한 필수 요소이다.
 jvm option, properties, xml 파일 등에 많은 설정을 등록하여 application을 동작시킨다.
@@ -99,7 +102,9 @@ java -jar target/config-service-0.0.1-SNAPSHOT.jar
 
 
 # eureka
-MSA 구성에서 각 모듈의 lookup, scale status, health status 관리 모듈이다.
+
+
+MSA 구성에서 각 모듈의 lookup, scale in/out status, health status 관리 모듈이다.
 client에서 특정 모듈의 요청이 들어오면, eureka는 서비스가 어디에 있는지, 요청이 가능한 상태인지 체크를 해서
 client에게 해당 모듈의 ip, port 정보를 돌려 주고, client는 해당 모듈에 요청하게 된다.
 
